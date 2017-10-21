@@ -120,7 +120,7 @@ var context;
 
 // Initialise the scene and set the context if possible
 function init() {
-    var canvas = document.getElementById('myCanvas');
+    var canvas = document.getElementById('reactionAppContainer');
     if (canvas.getContext) {
 
         // Set the context variable so it can be re-used
