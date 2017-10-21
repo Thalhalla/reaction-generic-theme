@@ -1,5 +1,9 @@
 // Import CSS
 import "./styles/main.less";
+
+// BEGIN SMOKEY BACKGROUND
+$(window).load(function(){
+
 // Create an array to store our particles
 var particles = [];
 
@@ -176,3 +180,5 @@ if (context) {
     }, 1500 / targetFPS);
 }
 
+// END SMOKEY BACKGROUND
+});
